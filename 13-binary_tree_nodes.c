@@ -10,7 +10,7 @@ void node_count(const binary_tree_t *tree, size_t *n)
 {
 	if (tree != NULL)
 	{
-		if ((tree->left == NULL) || (tree->right == NULL))
+		if ((tree->left != NULL) || (tree->right != NULL))
 		{
 			if (n != NULL)
 			{
