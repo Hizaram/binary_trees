@@ -16,7 +16,7 @@ void full_tree_check(const binary_tree_t *tree, int *is_full)
 				*is_full = 0;
 		}
 		full_tree_check(tree->left, is_full);
-		full_tree_cehck(tree->right, is_full);
+		full_tree_check(tree->right, is_full);
 	}
 }
 
